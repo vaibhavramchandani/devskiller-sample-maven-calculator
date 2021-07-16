@@ -14,7 +14,11 @@ public class Calculator {
 		return a*b;
 	}
 
-	public int divide(int a, int b) {
+	public int divide(int a, int b) throws Exception{
+		if(b == 0)
+		{
+		   throw new IllegalArgumentException()
+		}
 		return a/b;
 	}
 
