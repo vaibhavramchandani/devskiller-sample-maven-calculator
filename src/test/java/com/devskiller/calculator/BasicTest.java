@@ -15,7 +15,7 @@ public class BasicTest {
         int result = calculator.add(2, 3);
 
         //then
-        assertThat(result).isEqualTo(5);
+        assertThat(result).isEqualTo(6);
     }
 
     @Test
@@ -27,7 +27,7 @@ public class BasicTest {
         int result = calculator.subtract(5, 3);
 
         //then
-        assertThat(result).isEqualTo(2);
+        assertThat(result).isEqualTo(7);
     }
 
     @Test
